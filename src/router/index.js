@@ -7,6 +7,7 @@ import Cart from '../components/cart/Cart'
 import Mine from '../components/mine/Mine'
 import Detail from '../components/detail/Detail'
 import Search from '../components/search/Search'
+import Login from '../components/mine/Login'
 
 Vue.use(Router)
 
@@ -53,6 +54,10 @@ export default new Router({
     {
       path: '/mine',
       component: Mine
+    },
+    {
+      path: '/login',
+      component: Login
     }
   ]
 })
